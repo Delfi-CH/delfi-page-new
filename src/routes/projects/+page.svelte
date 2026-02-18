@@ -2,6 +2,7 @@
     /* eslint-disable svelte/no-navigation-without-resolve */
     import {ProjectList} from "$lib/projects.js";
     import Navigation from "$lib/components/Navigation.svelte";
+    import Footer from "$lib/components/Footer.svelte";
 
 </script>
 <main>
@@ -30,6 +31,7 @@
         </div>
     {/each}
     </div>
+    <Footer></Footer>
 </main>
 <style>
     h1, .projects {
@@ -40,6 +42,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         max-width: 95%;
+        margin-bottom: 10%;
     }
     .projectItem {
         padding: 0.7rem;
