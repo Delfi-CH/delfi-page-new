@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-git fetch
-git checkout main
-git pull --rebase
 git checkout pages
-git pull --rebase
+git stash
 git rebase main pages
 npm run build
 cp -r ./build ./docs
