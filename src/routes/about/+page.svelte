@@ -21,5 +21,11 @@
     <Footer></Footer>
 </main>
 <style>
-
+    h1, h2, p {
+        margin-left: 0.5em;
+    }
+    p {
+        margin-left: 1em;
+        padding-left: 1em;
+    }
 </style>
