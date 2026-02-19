@@ -13,7 +13,7 @@ import Footer from "$lib/components/Footer.svelte";
 </main>
 
 <style>
-    h1, h2, p {
+    h1, p {
         margin-left: 0.5em;
     }
     p {

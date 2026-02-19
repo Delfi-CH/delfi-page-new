@@ -8,6 +8,7 @@
         {#each Routes as route (route.name)}
             <li class="navItem"><a class="navItemLink" href={resolve(route.href)}>{route.name}</a></li>
         {/each}
+        <li class="github"><a class="githubLink" href="https://classic.delfi.dev">Classic Page</a></li>
         <li class="github"><a class="githubLink" href="https://github.delfi.dev">GitHub</a></li>
     </ul>
 </main>

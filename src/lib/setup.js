@@ -96,7 +96,7 @@ export const Acessories = [
     {type: "Mouse", name: "Logitech G502 Hero", url: "https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html?sp=4&searchclick=gaming"},
     {type: "Keyboard", name: "Corsair K55 Pro Lite", url: "https://www.corsair.com/us/en/p/keyboards/ch-9226065-na/k55-rgb-pro-lite-gaming-keyboard-ch-9226065-na"},
     {type: "Monitor", name: "ASUS TUF Gaming VG27AQMA", url: "https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27aqm1a/"},
-    {type: "Monitor", name: "Hannspree HL 162 Portable Monitor", url: "Hannspree HL 162 Portable Monitor"},
+    {type: "Monitor", name: "Hannspree HL 162 Portable Monitor", url: "https://www.hannspree.eu/HL162CPB.html"},
     {type: "Headphones", name: "Logitech G733", url: "https://www.logitechg.com/de-ch/shop/p/g733-rgb-wireless-headset.981-000864?sp=1&searchclick=Logitech%20G"},
     {type: "Gamepad", name: "Logitech F310 Gamepad", url: "https://www.logitech.com/de-ch/shop/p/f310-gamepad.940-000135?sp=1&searchclick=Logitech%20G"},
     {type: "Gamepad", name: "Nintendo Switch Pro Controller", url: "https://www.nintendo.com/us/store/products/pro-controller/"}
