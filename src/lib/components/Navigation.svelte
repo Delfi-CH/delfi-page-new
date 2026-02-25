@@ -21,7 +21,7 @@
                     <li class="hamburgerItem"><a class="hamburgerItemLink" href={resolve(route.href)}>{route.name}</a></li>
                 {/each}
                 <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://classic.delfi.dev">Classic Page</a></li>
-                <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://github.delfi.dev">GitHub</a></li>
+                <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://github.delfi.dev" target="_blank">GitHub</a></li>
             </ul>
         {/if}
     </div>
@@ -30,7 +30,7 @@
             <li class="navItem"><a class="navItemLink" href={resolve(route.href)}>{route.name}</a></li>
         {/each}
         <li class="github"><a class="githubLink" href="https://classic.delfi.dev">Classic Page</a></li>
-        <li class="github"><a class="githubLink" href="https://github.delfi.dev">GitHub</a></li>
+        <li class="github"><a class="githubLink" href="https://github.delfi.dev" target="_blank">GitHub</a></li>
     </ul>
     </div>
 </main>

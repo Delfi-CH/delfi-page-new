@@ -5,7 +5,7 @@
 <main>
     <div class="footer">
         <p>© 2026-{currentYear.getFullYear()} Delfi-CH</p>
-        <p>View the source code <a href="https://github.com/Delfi-CH/delfi-page-new">here</a></p>
+        <p>View the source code <a href="https://github.com/Delfi-CH/delfi-page-new" target="_blank">here</a></p>
     </div>
 </main>
 
