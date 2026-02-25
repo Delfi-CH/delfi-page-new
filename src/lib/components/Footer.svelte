@@ -24,5 +24,4 @@
         border: 5px solid #34c777;
         max-height: 15%;
     }
-
 </style>

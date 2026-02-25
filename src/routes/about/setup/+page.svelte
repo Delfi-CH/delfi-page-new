@@ -29,8 +29,11 @@
     <Footer></Footer>
 </main>
 <style>
-    h1, h2, .deviceList, .deviceList h3, p {
+    h2, .deviceList, .deviceList h3, p {
         margin-left: 1em;
+    }
+    h1 {
+        margin-left: 0.5rem;
     }
     .last {
         margin-left: 1em;
@@ -42,5 +45,19 @@
     }
     a {
         color: #34C777;
+    }
+    @media screen and (max-width: 600px) {
+        h2, .deviceList, .deviceList h3, p {
+            margin-left: 0.5em;
+        }
+        h1 {
+            margin-left: 0.2rem;
+        }
+        .deviceList {
+            padding-left: 0.5em;
+        }
+        .last {
+            margin-bottom: 8rem;
+        }
     }
 </style>

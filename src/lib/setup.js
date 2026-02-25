@@ -91,6 +91,18 @@ export const DeviceList = [
         [DeviceUseCase.Phone, DeviceUseCase.Entertainment],
         "SD-Card Slot"
     ),
+    new Device(
+        "Raspberry Pi 5",
+        "Raspberry Pi",
+        "https://www.raspberrypi.com/products/raspberry-pi-5/",
+        "Broadcom BCM2712 2.4GHz Arm Cortex-A76",
+        "VideoCore VII GPU",
+        "4GB LPDDR4X",
+        "64GB SD-Card",
+        DeviceType.Desktop,
+        [DeviceUseCase.Server],
+        "GPIO Headers"
+    )
 ]
 export const Acessories = [
     {type: "Mouse", name: "Logitech G502 Hero", url: "https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html?sp=4&searchclick=gaming"},

@@ -16,6 +16,7 @@
     <p>I also have some experience with Python (mostly for data visualisation with matplotlib) and in writing UNIX shell scripts with GNU BASH.</p>
     <p>During my free time, I have also started learning lower level languages like Rust and C by writing command-line programms with the eventual goal of writing desktop-applications.</p>
     <h2><a href={resolve("/about/setup")}>My Setup</a></h2>
+    <span class="last"></span>
     <Footer></Footer>
 </main>
 <style>
@@ -28,5 +29,14 @@
     }
     a {
         color: #34C777;
+    }
+    .last {
+        display: none;
+    }
+    @media screen and (max-width: 600px) {
+        .last {
+            display: block;
+            margin-bottom: 8rem;
+        }
     }
 </style>

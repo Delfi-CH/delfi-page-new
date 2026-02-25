@@ -8,7 +8,7 @@ import Footer from "$lib/components/Footer.svelte";
     <Navigation></Navigation>
     <h1>Contact me:</h1>
     <p>Discord: @delfi1423</p>
-    <p>Email (private): delfi at delfi.dev</p>
+    <p>Email (private): delfi at delfi dot dev</p>
     <p>Email (buisness): buisness at delfi dot dev</p>
     <h2>Social Media</h2>
     <p>GitHub: @Delfi-CH</p>

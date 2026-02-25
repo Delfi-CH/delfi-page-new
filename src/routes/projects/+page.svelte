@@ -31,6 +31,7 @@
         </div>
     {/each}
     </div>
+    <span class="last"></span>
     <Footer></Footer>
 </main>
 <style>
@@ -39,7 +40,7 @@
     }
     .projects {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         max-width: 95%;
         margin-bottom: 10%;
@@ -50,7 +51,6 @@
         border: 5px solid #34c777;
         border-radius: 1.5rem;
         overflow-wrap: break-word;
-        width: 30%;
     }
     .list {
         padding: 0.2rem;
@@ -62,5 +62,20 @@
     }
     a {
         color: #34c777;
+    }
+    .last {
+        display: block;
+        margin-bottom: 8rem;
+    }
+    @media screen and (min-width: 599px) {
+        .last {
+            display: none;
+        }
+        .projects {
+            flex-direction: row;
+        }
+        .projectItem {
+            width: 30%;
+        }
     }
 </style>
