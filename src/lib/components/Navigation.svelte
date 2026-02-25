@@ -1,7 +1,6 @@
 <script>
     import {Routes} from "$lib/routes.js";
     import {resolve} from "$app/paths";
-    import burger from "$lib/assets/hamburger.png"
     import { slide } from "svelte/transition";
 
     let hamburgerMenuVisibility = false;
@@ -14,7 +13,7 @@
 
 <main>
     <div class="mobile">
-        <button class="hamburger" on:click={toggleHamburgerMenuVisibility}><img alt="hamburger" src={burger} width="14%" class:hamburgerImage/></button>
+        <button class="hamburger" on:click={toggleHamburgerMenuVisibility}><img alt="hamburger" src="/hamburger.png" width="14%" class:hamburgerImage={hamburgerImage}/></button>
         {#if hamburgerMenuVisibility}
             <ul class="hamburgerItemList" transition:slide>
                 {#each Routes as route (route.name)}
