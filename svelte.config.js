@@ -8,7 +8,7 @@ export default {
 			// Optional options — defaults are usually fine
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html',
+			fallback: null,
 		}),
 		prerender: {
 			handleHttpError: ({ path, referrer, message }) => {
