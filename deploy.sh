@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-rm -rf build node_modules
-find docs -mindepth 1 ! -name 'CNAME' -exec rm -rf {} +
-npm install
+rm -rf docs/_app docs/about docs/contact docs/projects docs/.nojekyll docs/hamburger.png docs/indes.html docs/robots.txt
 npm run build
 git add .
 git commit -m "Continious build"
