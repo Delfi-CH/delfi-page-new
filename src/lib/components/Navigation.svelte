@@ -65,10 +65,12 @@
         text-align: center;
     }
     .hamburgerItemList {
+        position: absolute;
+        top: 100%;
+        width: 100%;
         height: fit-content;
         background: #34c777;
         color: white;
-        margin-top: -0.2rem;
         z-index: 9999;
     }
     .hamburgerItem {
