@@ -2,18 +2,21 @@
     import {Routes} from "$lib/routes.js";
     import {resolve} from "$app/paths";
     import burger from "$lib/assets/hamburger.png"
+    import { slide } from "svelte/transition";
 
     let hamburgerMenuVisibility = false;
+    let hamburgerImage = false;
     function toggleHamburgerMenuVisibility() {
         hamburgerMenuVisibility = !hamburgerMenuVisibility
+        hamburgerImage = !hamburgerImage
     }
 </script>
 
 <main>
     <div class="mobile">
-        <button class="hamburger" on:click={toggleHamburgerMenuVisibility}><img alt="hamburger" src={burger} width="14%"/></button>
+        <button class="hamburger" on:click={toggleHamburgerMenuVisibility}><img alt="hamburger" src={burger} width="14%" class:hamburgerImage/></button>
         {#if hamburgerMenuVisibility}
-            <ul class="hamburgerItemList">
+            <ul class="hamburgerItemList" transition:slide>
                 {#each Routes as route (route.name)}
                     <li class="hamburgerItem"><a class="hamburgerItemLink" href={resolve(route.href)}>{route.name}</a></li>
                 {/each}
@@ -42,7 +45,7 @@
     }
     .mobile {
         display: block;
-        height: 7vh;
+        height: 7.5vh;
         background: #34c777;
         margin: -0.5rem;
         color: white;
@@ -82,6 +85,14 @@
         cursor: pointer;
         text-decoration: underline;
     }
+    .hamburger img {
+        transition: transform 0.3s ease;
+    }
+
+    .hamburgerImage {
+        transform: rotate(90deg);
+    }
+
     @media screen and (min-width: 599px) {
         .mobile {
             display: none;
