@@ -12,3 +12,9 @@
     {@html htmlContent}
     <Footer />
 </main>
+
+<style>
+    :root {
+        margin-left: 1rem;
+    }
+</style>

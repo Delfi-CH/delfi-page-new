@@ -20,5 +20,5 @@ export const BlogList = [
         new Date(),
         new Date(),
         "/blog/wawa"
-    )
+    ),
 ]
