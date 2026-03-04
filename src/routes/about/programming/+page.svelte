@@ -52,7 +52,9 @@ import {languagesToolkitsAndUtilities} from "$lib/langs.js";
         width: 10%;
     }
     .langContainer {
-        margin-left: -0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 1rem;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -67,9 +69,10 @@ import {languagesToolkitsAndUtilities} from "$lib/langs.js";
             border-radius: 2em;
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: space-evenly;
         }
         .langItem {
-            width: 13%;
+            width: 12%;
         }
     }
 
