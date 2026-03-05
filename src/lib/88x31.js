@@ -28,7 +28,8 @@ const eightyeightXthirtyones = [
     { filename: "valid-css-blue.gif", url: "https://www.w3.org/TR/css/#css" },
     { filename: "vim_a.gif", url: "https://neovim.io" },
     { filename: "warpnow.gif", url: "https://en.wikipedia.org/wiki/OS/2" },
-    { filename: "wikipedia.gif", url: "https://en.wikipedia.org" }
+    { filename: "wikipedia.gif", url: "https://en.wikipedia.org" },
+    { filename: "88x31.gif", url: "https://cyber.dabamos.de/88x31/"},
 ];
 
 export function getRandom88x31() {

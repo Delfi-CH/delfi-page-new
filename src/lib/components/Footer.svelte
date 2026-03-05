@@ -1,7 +1,7 @@
 <script>
     import {getRandom88x31} from "$lib/88x31.js";
     import { onMount } from "svelte";
-    let eightyeightXthirtyone = {filename: "sendit.gif", url: "https://example.com"};
+    let eightyeightXthirtyone = {filename: "88x31.gif", url: "https://cyber.dabamos.de/88x31/"};
 
     onMount(() => {
         eightyeightXthirtyone = getRandom88x31();
