@@ -105,11 +105,11 @@ export const ProjectList = [
     new Project(
         "sysfind.app",
         "",
-        "https://github.com/Delfi-CH/belaberung-docker",
-        "https://github.com/Delfi-CH/belaberung-docker",
+        null,
+        null,
         [Licenses.GPLv3,],
         [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, ],
         Status.WIP,
-        "1.1"
+        "0"
     ),
 ]
