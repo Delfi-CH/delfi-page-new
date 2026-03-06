@@ -79,8 +79,8 @@ export const ProjectList = [
         "https://github.com/Delfi-CH/delfi-page-new",
         [Licenses.MIT],
         [Toolkits.JavaScript, Toolkits.Svelte,],
-        Status.WIP,
-        "0"
+        Status.Finished,
+        "1"
     ),
     new Project(
         "ArchLinux Installation Support Software",
@@ -101,5 +101,15 @@ export const ProjectList = [
         [Toolkits.Rust],
         Status.Finished,
         "0.1.0"
+    ),
+    new Project(
+        "sysfind.app",
+        "",
+        "https://github.com/Delfi-CH/belaberung-docker",
+        "https://github.com/Delfi-CH/belaberung-docker",
+        [Licenses.GPLv3,],
+        [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, ],
+        Status.WIP,
+        "1.1"
     ),
 ]

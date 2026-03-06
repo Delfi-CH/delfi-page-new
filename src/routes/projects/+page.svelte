@@ -14,7 +14,11 @@
             <h2>{project.name} v{project.version}</h2>
             <p>{project.description}</p>
             <p>Status: {project.status}</p>
-            <p><a href={project.website} target="_blank">Website</a></p>
+            {#if !project.website}
+                <p>No Website available</p>
+            {:else }
+                <p><a href={project.website} target="_blank">Website</a></p>
+            {/if}
             {#if !project.repository}
                 <p>No Source Code available</p>
             {:else}
