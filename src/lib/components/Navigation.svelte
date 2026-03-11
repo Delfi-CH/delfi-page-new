@@ -4,17 +4,18 @@
     import { slide } from "svelte/transition";
     import burger from "$lib/assets/hamburger.png"
 
-    let hamburgerMenuVisibility = false;
-    let hamburgerImage = false;
+    let hamburgerMenuVisibility = $state(false);
+    let hamburgerImage = $state(false);
     function toggleHamburgerMenuVisibility() {
         hamburgerMenuVisibility = !hamburgerMenuVisibility
         hamburgerImage = !hamburgerImage
     }
+
 </script>
 
 <main>
     <div class="mobile">
-        <button class="hamburger" on:click={toggleHamburgerMenuVisibility}><img alt="hamburger" src={burger} width="14%" class:hamburgerImage={hamburgerImage}/></button>
+        <button class="hamburger" onclick={toggleHamburgerMenuVisibility}><img alt="hamburger" src={burger} width="14%" class:hamburgerImage={hamburgerImage}/></button>
         {#if hamburgerMenuVisibility}
             <ul class="hamburgerItemList" transition:slide>
                 {#each Routes as route (route.name)}
@@ -123,10 +124,13 @@
             color: #1A2426;
             font-size: 130%;
             text-decoration: none;
+            transition: 0.2s;
         }
+
         .navItemLink:hover {
             background: #131416;
             color: #34c777;
+            padding: 0.6rem 1.4rem;
         }
 
         .github {
@@ -145,11 +149,13 @@
             color: #1A2426;
             font-size: 130%;
             text-decoration: none;
+            transition: 0.2s;
         }
 
         .githubLink:hover {
             background: #131416;
             color: #34c777;
+            padding: 0.6rem 1.4rem;
         }
     }
 </style>
