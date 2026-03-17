@@ -104,12 +104,22 @@ export const ProjectList = [
     ),
     new Project(
         "sysfind.app",
-        "",
-        null,
-        null,
-        [Licenses.GPLv3,],
-        [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, ],
+        "An application for operating system installer management",
+        "https://github.com/Delfi-CH/sysfind-application",
+        "https://github.com/Delfi-CH/sysfind-application",
+        [Licenses.GPLv3, Licenses.AGPLv3],
+        [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, Toolkits.MariaDB],
         Status.WIP,
         "0"
     ),
+    new Project(
+        "ini.js",
+        "Key-Value Parser for JavaScript",
+        "https://www.npmjs.com/package/@delfi-ch/ini.js",
+        "https://github.com/Delfi-CH/ini.js",
+        [Licenses.BSD_2_Clause],
+        [Toolkits.JavaScript, Toolkits.Node],
+        Status.Finished,
+        "0.1.0"
+    )
 ]
