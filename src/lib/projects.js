@@ -105,7 +105,7 @@ export const ProjectList = [
     new Project(
         "sysfind.app",
         "An application for operating system installer management",
-        "https://github.com/Delfi-CH/sysfind-application",
+        "https://sysfind.app",
         "https://github.com/Delfi-CH/sysfind-application",
         [Licenses.GPLv3, Licenses.AGPLv3],
         [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, Toolkits.MariaDB],
