@@ -65,7 +65,7 @@ export const ProjectList = [
     new Project(
         "belaberung",
         "Simple chatting application.",
-        "https://github.com/Delfi-CH/belaberung-docker",
+        "https://chat.delfi.dev",
         "https://github.com/Delfi-CH/belaberung-docker",
         [Licenses.BSD_2_Clause, Licenses.AGPLv3],
         [Toolkits.Java, Toolkits.Spring, Toolkits.JavaScript, Toolkits.ReactJS, Toolkits.MariaDB, Toolkits.Docker],

@@ -4,4 +4,5 @@ export const Routes =  [
     {name: "My Projects", href: "/projects"},
     {name: "Contact", href: "/contact"},
     {name: "Blog", href: "/blog"},
+    {name: "Chat", href: "/chat"}
 ]
