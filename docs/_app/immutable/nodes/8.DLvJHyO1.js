@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import{i as t}from"../chunks/Bz12RFKc.js";import{o as p}from"../chunks/DgvhL0k3.js";import{p as a,a as i}from"../chunks/C6Dl_uy2.js";function f(n,o){a(o,!1),p(()=>{window.location.href="https://chat.delfi.dev"}),t(),i()}export{f as component};
