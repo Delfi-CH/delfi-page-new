@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404, Page not found.</title>
+    <style>
+        body {
+            background: #131416;
+            color: white;
+        }
+
+        .nav-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .nav-item {
+            width: fit-content;
+            padding: 1rem 0;
+            margin: 0.5rem 0;
+        }
+
+        .nav-link {
+            width: fit-content;
+            background: #34c777;
+            border: 5px solid #34c777;
+            border-radius: 2rem;
+            margin: 0.7rem 0.5rem;
+            padding: 0.3rem 0.7rem;
+            color: #1A2426;
+            font-size: 130%;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .nav-link:hover {
+            background: #131416;
+            color: #34c777;
+            padding: 0.6rem 1.4rem;
+        }
+
+        .email {
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 1rem;
+            color: #1A2426;
+            background: #34c777;
+            border: 5px solid #34c777;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a href="https://delfi.dev" class="nav-link">delfi.dev</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://github.com/Delfi-CH" class="nav-link">GitHub</a>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h1>Page not found</h1>
+    <p>The page you are trying to reach wasn't found.</p>
+    <p>Check your URL and try again in a few minutes.</p>
+    <p>If this happens to persist, please send a E-Mail to
+        <span class="email">status at delfi dot dev</span>.
+    </p>
+</div>
+
+<div class="footer">
+    <p>© 2026-today Delfi-CH</p>
+    <p>View the source code
+        <a href="https://github.com/Delfi-CH/delfi-page-new" target="_blank">here</a>
+    </p>
+</div>
+</body>
+</html>
