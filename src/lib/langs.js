@@ -92,13 +92,6 @@ export const languagesToolkitsAndUtilities = [
         "3/10"
     ),
     new LanguageOrToolkitOrUtility(
-        "C++",
-        "Programming Language",
-        "https://www.isocpp.org/",
-        "cpp.svg",
-        "3/10"
-    ),
-    new LanguageOrToolkitOrUtility(
         "Java",
         "Programming Language",
         "https://java.com",
@@ -111,13 +104,6 @@ export const languagesToolkitsAndUtilities = [
         "https://spring.io/",
         "spring.svg",
         "5/10"
-    ),
-    new LanguageOrToolkitOrUtility(
-        "C#",
-        "Programming Language",
-        "https://learn.microsoft.com/en-us/dotnet/csharp/",
-        "csharp.svg",
-        "3/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Rust",
