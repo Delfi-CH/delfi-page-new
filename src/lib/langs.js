@@ -33,7 +33,7 @@ export const languagesToolkitsAndUtilities = [
         "Programming Language",
         "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
         "js.svg",
-        "6/10"
+        "8/10"
     ),
     new LanguageOrToolkitOrUtility(
         "React",
@@ -47,6 +47,20 @@ export const languagesToolkitsAndUtilities = [
         "Toolkit",
         "https://svelte.dev  ",
         "svelte.svg",
+        "6/10"
+    ),
+    new LanguageOrToolkitOrUtility(
+        "ElectronJS",
+        "Toolkit",
+        "https://www.electronjs.org/",
+        "electron.svg",
+        "5/10"
+    ),
+    new LanguageOrToolkitOrUtility(
+        "CapacitorJS",
+        "Toolkit",
+        "https://capacitorjs.com/",
+        "capacitor.svg",
         "5/10"
     ),
     new LanguageOrToolkitOrUtility(

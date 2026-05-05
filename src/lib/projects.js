@@ -33,11 +33,14 @@ const Toolkits = Object.freeze({
     TypeScript: "TypeScript",
     Node: "NodeJS",
     ReactJS: "ReactJS",
-    ExpressJS: "ExpressJS",
     Svelte: "Svelte",
+    ExpressJS: "ExpressJS",
+    ElectronJS: "ElectronJS",
+    CapacitorJS: "CapacitorJS",
     Python: "Python",
     Bash: "Bash Script",
     MariaDB: "MariaDB",
+    PostgresSQL: "PostgreSQL",
     Docker: "Docker",
 })
 
@@ -110,7 +113,7 @@ export const ProjectList = [
         [Licenses.GPLv3, Licenses.AGPLv3],
         [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, Toolkits.MariaDB],
         Status.WIP,
-        "0"
+        "0.1.0"
     ),
     new Project(
         "ini.js",
@@ -121,5 +124,15 @@ export const ProjectList = [
         [Toolkits.JavaScript, Toolkits.Node],
         Status.Finished,
         "0.1.0"
+    ),
+    new Project(
+        "remind-me",
+        "Desktop and Mobile App for scheduling reminders",
+        "https://github.com/Delfi-CH/remind-me",
+        "https://github.com/Delfi-CH/remind-me",
+        [Licenses.GPLv3],
+        [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.CapacitorJS, Toolkits.ElectronJS, Toolkits.PostgresSQL],
+        Status.WIP,
+        "0.8.0-dev"
     )
 ]
