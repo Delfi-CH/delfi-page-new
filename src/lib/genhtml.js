@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { languagesToolkitsAndUtilities } from "./langs.js";
 import { ProjectList } from "./projects.js";
-import { DeviceList } from "./setup.js";
+import { DeviceList, Acessories, OperatingSystems } from "./setup.js";
 import fs from "node:fs"
 
 
@@ -47,4 +47,15 @@ const deviceHtml = DeviceList.map((dev)=>{
     return htmlUlStart + string1 + string2 + string3 + string4 + htmlUlEnd
 })
 
+const acessoryHtml = Acessories.map((acc)=>{
+    const string1 = htmlLiStart + acc.name + htmlLiEnd
+    const string2 = htmlLiStart + acc.type + htmlLiEnd
+    const string3 = htmlLiEnd + htmlAStart(acc.url) + "(Website)" + htmlAEnd + htmlLiEnd
+    return htmlUlStart + string1 + string2 + string3 + htmlUlEnd
+}) 
+
+const osHtml = "<p>" + OperatingSystems.join(", ")+"</p>"
+
 fs.writeFileSync("./src/generated/devices.html", deviceHtml.join(""))
+fs.writeFileSync("./src/generated/acessories.html", acessoryHtml.join(""))
+fs.writeFileSync("./src/generated/os.html", osHtml.join(""))
