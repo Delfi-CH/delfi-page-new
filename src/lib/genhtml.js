@@ -58,4 +58,4 @@ const osHtml = "<p>" + OperatingSystems.join(", ")+"</p>"
 
 fs.writeFileSync("./src/generated/devices.html", deviceHtml.join(""))
 fs.writeFileSync("./src/generated/acessories.html", acessoryHtml.join(""))
-fs.writeFileSync("./src/generated/os.html", osHtml.join(""))
+fs.writeFileSync("./src/generated/os.html", osHtml)
