@@ -24,6 +24,7 @@
                 <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://classic.delfi.dev">Classic Page</a></li>
                 <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://github.delfi.dev" target="_blank">GitHub</a></li>
                 <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://git.delfi.dev" target="_blank">Git Mirror</a></li>
+                <li class="hamburgerItem"><a class="hamburgerItemLink" href="https://pub.delfi.dev">Downloads</a></li>
             </ul>
         {/if}
     </div>
@@ -34,6 +35,7 @@
         <li class="github"><a class="githubLink" href="https://classic.delfi.dev">Classic Page</a></li>
         <li class="github"><a class="githubLink" href="https://github.delfi.dev" target="_blank">GitHub</a></li>
         <li class="github"><a class="githubLink" href="https://git.delfi.dev" target="_blank">Git Mirror</a></li>
+        <li class="github"><a class="githubLink" href="https://pub.delfi.dev">Downloads</a></li>
     </ul>
     </div>
 </main>
