@@ -26,7 +26,7 @@ export const languagesToolkitsAndUtilities = [
         "Programming Language (debatable)",
         "https://w3.org/TR/CSS/#css",
         "css.svg",
-        "7  /10"
+        "7/10"
     ),
     new LanguageOrToolkitOrUtility(
         "JavaScript",

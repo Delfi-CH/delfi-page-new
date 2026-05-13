@@ -62,7 +62,7 @@ export const DeviceList = [
         "AMD Ryzen 7 9800X3D",
         "AMD Radeon Rx 9070 (Gigabyte OC) + AMD Radeon HD Graphics",
         "32GB 5600MHz DDR5 RAM",
-        " 2TB NVMe SSD",
+        "2TB NVMe SSD",
         DeviceType.Desktop,
         [DeviceUseCase.Development, DeviceUseCase.Entertainment, DeviceUseCase.Gaming],
         "MSI PRO B850-P WIFI Motherboard"
@@ -74,7 +74,7 @@ export const DeviceList = [
         "2x Intel Xeon X5550 at 2.66 GHz",
         "AMD Radeon HD 8950 or Equivalent",
         "56GB 1033 MHz DDR3 ECC RAM",
-        "512GB SATA SSD",
+        "512GB SATA SSD + 2x 2TB WD Red Plus SATA HDD (RAID 1)",
         DeviceType.Desktop,
         [DeviceUseCase.Server],
         "DVD-RW SATA Drive"
@@ -118,5 +118,6 @@ export const OperatingSystems = [
     "Bazzite Linux",
     "Arch Linux (btw)",
     "Rasberry Pi OS",
+    "Debian",
     "Windows 11"
 ]
