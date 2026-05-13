@@ -50,7 +50,7 @@ const deviceHtml = DeviceList.map((dev)=>{
 const acessoryHtml = Acessories.map((acc)=>{
     const string1 = htmlLiStart + acc.name + htmlLiEnd
     const string2 = htmlLiStart + acc.type + htmlLiEnd
-    const string3 = htmlLiEnd + htmlAStart(acc.url) + "(Website)" + htmlAEnd + htmlLiEnd
+    const string3 = htmlLiStart + htmlAStart(acc.url) + "(Website)" + htmlAEnd + htmlLiEnd
     return htmlUlStart + string1 + string2 + string3 + htmlUlEnd
 }) 
 
