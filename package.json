@@ -8,7 +8,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"genhtml": "node src/lib/genhtml.js"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^2.0.2",
