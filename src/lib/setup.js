@@ -2,7 +2,7 @@ class Device {
     name;
     manufacturer;
     manufacturerUrl;
-    processor;
+    processor;  
     graphicsProcessor;
     memory;
     storage;
@@ -115,8 +115,8 @@ export const Acessories = [
 ]
 
 export const OperatingSystems = [
-    "Bazzite Linux",
     "Arch Linux (btw)",
+    "CachyOS",
     "Rasberry Pi OS",
     "Debian",
     "Windows 11"

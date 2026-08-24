@@ -29,7 +29,7 @@ export const languagesToolkitsAndUtilities = [
         "7/10"
     ),
     new LanguageOrToolkitOrUtility(
-        "JavaScript",
+        "JavaScript/TypeScript",
         "Programming Language",
         "https://ecma-international.org/publications-and-standards/standards/ecma-262/",
         "js.svg",
@@ -47,14 +47,14 @@ export const languagesToolkitsAndUtilities = [
         "Toolkit",
         "https://svelte.dev  ",
         "svelte.svg",
-        "6/10"
+        "8/10"
     ),
     new LanguageOrToolkitOrUtility(
         "ElectronJS",
         "Toolkit",
         "https://www.electronjs.org/",
         "electron.svg",
-        "5/10"
+        "6/10"
     ),
     new LanguageOrToolkitOrUtility(
         "CapacitorJS",
@@ -68,7 +68,7 @@ export const languagesToolkitsAndUtilities = [
         "Toolkit",
         "https://nodejs.org",
         "node.svg",
-        "5/10"
+        "7/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Vite",
@@ -82,7 +82,7 @@ export const languagesToolkitsAndUtilities = [
         "Utility",
         "https://tauri.app/",
         "tauri.svg",
-        "4/10"
+        "5/10"
     ),
     new LanguageOrToolkitOrUtility(
         "C",
@@ -96,14 +96,14 @@ export const languagesToolkitsAndUtilities = [
         "Programming Language",
         "https://java.com",
         "java.svg",
-        "6/10"
+        "7/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Spring Boot",
         "Toolkit",
         "https://spring.io/",
         "spring.svg",
-        "5/10"
+        "6/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Rust",
@@ -111,6 +111,13 @@ export const languagesToolkitsAndUtilities = [
         "https://rust-lang.org",
         "rust.svg",
         "5/10"
+    ),
+    new LanguageOrToolkitOrUtility(
+        "Go",
+        "Programming Language",
+        "https://go.dev/",
+        "go.svg",
+        "7/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Python",
@@ -162,18 +169,11 @@ export const languagesToolkitsAndUtilities = [
         "5/10"
     ),
     new LanguageOrToolkitOrUtility(
-        "MariaDB",
-        "Utility",
-        "https://mariadb.org/",
-        "mariadb.svg",
-        "7/10"
-    ),
-    new LanguageOrToolkitOrUtility(
         "PostgreSQL",
         "Utility",
         "https://postgresql.org/",
         "postgres.svg",
-        "6/10"
+        "7/10"
     ),
     new LanguageOrToolkitOrUtility(
         "Docker",

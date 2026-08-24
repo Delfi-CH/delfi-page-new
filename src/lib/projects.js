@@ -26,6 +26,7 @@ const Toolkits = Object.freeze({
     Java: "Java",
     Spring: "Spring Boot",
     Rust: "Rust",
+    Go: "Go",
     Tauri: "Tauri",
     HTML: "HTML",
     CSS: "CSS",
@@ -66,7 +67,37 @@ const Status = Object.freeze({
 
 export const ProjectList = [
     new Project(
-        "belaberung",
+        "belaberung v2",
+        "Simple chatting application. Rewrite in Go + Svelte",
+        "https://github.com/Delfi-CH/belaberung-v2",
+        "https://github.com/Delfi-CH/belaberung-v2",
+        [Licenses.AGPLv3],
+        [Toolkits.Go, Toolkits.TypeScript, Toolkits.Svelte, Toolkits.Docker, Toolkits.PostgresSQL],
+        Status.WIP,
+        "2.0-dev"
+    ),
+    new Project(
+        "minopanel",
+        "Selfhostable minecraft server management panel.",
+        "https://github.com/Delfi-CH/minopanel",
+        "https://github.com/Delfi-CH/minopanel",
+        [Licenses.AGPLv3],
+        [Toolkits.TypeScript, Toolkits.Node, Toolkits.Svelte, Toolkits.Bash, Toolkits.Java],
+        Status.Paused,
+        "0.8.0"
+    ),
+    new Project(
+        "httpstart",
+        "Web-based installer for Linux Distributions .",
+        "https://github.com/Delfi-CH/httpstart",
+        "https://github.com/Delfi-CH/httpstart",
+        [Licenses.GPLv3],
+        [Toolkits.TypeScript, Toolkits.Node, Toolkits.Svelte, Toolkits.Bash, Toolkits.Python],
+        Status.Paused,
+        "0.1.0"
+    ),
+    new Project(
+        "belaberung v1",
         "Simple chatting application.",
         "https://chat.delfi.dev",
         "https://github.com/Delfi-CH/belaberung-docker",
@@ -112,7 +143,7 @@ export const ProjectList = [
         "https://github.com/Delfi-CH/sysfind-application",
         [Licenses.GPLv3, Licenses.AGPLv3],
         [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.Rust , Toolkits.Tauri, Toolkits.MariaDB],
-        Status.WIP,
+        Status.Paused,
         "0.1.0"
     ),
     new Project(
@@ -131,8 +162,8 @@ export const ProjectList = [
         "https://github.com/Delfi-CH/remind-me",
         "https://github.com/Delfi-CH/remind-me",
         [Licenses.GPLv3],
-        [Toolkits.JavaScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.CapacitorJS, Toolkits.ElectronJS, Toolkits.PostgresSQL],
-        Status.WIP,
+        [Toolkits.TypeScript, Toolkits.Node, Toolkits.ExpressJS, Toolkits.Svelte, Toolkits.CapacitorJS, Toolkits.ElectronJS, Toolkits.PostgresSQL],
+        Status.Paused,
         "0.8.0-dev"
     )
 ]
